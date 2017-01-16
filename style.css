@@ -1,0 +1,32 @@
+
+nav.horizontal {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+nav.horizontal a {
+	background: red;
+	text-align: center;
+	width: 100px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	border-radius: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+
+	text-decoration: none;
+	color: white;
+}
+nav.horizontal a.selected {
+	background: #fdd;
+	color: red;
+}
+nav.horizontal a:hover {
+	background:white;
+	border-style: solid;
+	border-color: red;
+	color: red;
+}
